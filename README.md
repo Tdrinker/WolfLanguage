@@ -3,7 +3,7 @@
 ## 名词
 * bugi  兔子
 * lamu  狼
-* oba 饭，餐食
+* oba 饭, 餐食
 * bajiong 睡眠
 
 ## 形容词
