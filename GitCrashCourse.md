@@ -1,9 +1,16 @@
 # Git Crash Course
 
 ## Workflow:
+
+### Cloning the repo:
 * If you do not have the git repository locally, first clone the repo with: 
 
   `git clone url-of-the-repo`
+
+### New branch and commit:
+* To check which branch you are on:
+
+   `git branch`
 
 * By default, you are on branch **master**, do not work/write code in **master**, instead, checkout a new branch:
   
@@ -34,6 +41,25 @@
 * Then push your changes:
 
   `git push --set-upstream origin your-branch-name`
+
+
+### Grabbing work from other branches:
+
+* To grab changes from another branch:
+
+  `git fetch`
+
+  `git pull origin branch-you-want-to-grab-from`
+
+   Note: Sometimes after the `git pull` a vim editory will show up, simply type `:q!` to exit the vim editor
+
+* Sometimes there might just be bad luck or you are completely lost, this is probably when you want to ditch everything you have worked on:
+
+  `git reset --hard`
+
+  which will force reset your working repository to `HEAD`, this will wipe out all of the changes that you haven't committed.
+
+
 
 
 ## Words of Caustion:
