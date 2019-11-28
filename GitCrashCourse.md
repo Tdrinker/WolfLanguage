@@ -62,7 +62,7 @@
 
 
 
-## Words of Caustion:
+## Words of Caution:
 * It is never a good habit to push directly to **master**, **master** should only be updated by merging other branches into it.
   
 
